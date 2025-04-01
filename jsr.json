@@ -1,0 +1,17 @@
+// jsr.json
+{
+  "name": "@rohit/ticketmaster-api",
+  "version": "0.1.0",
+  "exports": "mod.ts",
+  "publish": {
+    "include": [
+      "LICENSE",
+      "README.md",
+      "lib/**/*.ts"
+    ],
+    "exclude": [
+      "lib/tests",
+      "**/*/test/ts"
+    ]
+  }
+}
